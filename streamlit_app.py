@@ -21,7 +21,7 @@ st.header("Click any one for fun")
 
 col1,col2,_=st.columns([2,2,8])
 with col1:
-    if(st.button("Bulloon")):
+    if(st.button("Balloons")):
         st.balloons()
 with col2:
     if(st.button("Snow")):
